@@ -19,6 +19,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+ul{
+  padding: 0;
+}
 
 li {
   list-style: none;
@@ -52,24 +55,29 @@ header nav.search  {
   border-bottom: 2px solid #bec6cb;
 }
 
-header nav.search li {
-  padding-left: 2%;
-}
-
 header nav.search .contact {
   float:left;
   text-align: left;
-  width: 40%;
-  margin-left: 10%;
+  width: 35%;
+  margin-left: 15%;
 
+}
+
+
+header nav.search .contact li {
+  margin-right: 2%;
 }
 
 header nav.search .signin {
   float:left;
-  width: 40%;
-  margin-right: 10%;
+  width: 35%;
+  margin-right: 15%;
   text-align: right;
+}
 
+
+header nav.search .signin li {
+  margin-left: 2%;
 }
 
 header nav.search .signin .fa-search{
@@ -94,20 +102,21 @@ header nav.menu {
 
 header .menu .logo {
   float: left;
-  margin-left: 10%;
-  width: 40%;
+  margin-left: 15%;
+  width: 35%;
   height: 55px;
 }
 
 header .menu .logo img {
-  margin-left: 10%;
   line-height: 55px;
   width: 75px;
 }
 
 header .menu .options {
+  float: left;
   text-align: right;
-  margin-right: 10%;
+  width: 35%;
+  margin-right: 15%;
   line-height: 55px;
 }
 
@@ -116,12 +125,26 @@ header .menu .options li {
 }
 
 /* Fine Stili Options */
-header .pink {
-  height: 410px;
-  width: 100%;
-  background: #fef4ef;
-}
 
+/* Inizio Stili Trailer */
+header .trailer {
+  display: block;
+  height: 500px;
+  width: 100%;
+  padding: 0 15%;
+  background: url(../img/jumbotron.png);
+  background-size: 100% 575px;
+}
+header .trailer .presentation {
+  width:50%;
+}
+header .trailer .presentation li {
+  display: block;
+  margin: 8% 0;
+}
+header .trailer .presentation .button {
+  padding: 1.5em;
+}
 header .green {
   height: 55px;
   width: 100%;
@@ -129,5 +152,7 @@ header .green {
   border-top: 2px solid black;
   border-bottom: 2px solid #33475b;
 }
+
+/* Fine Stili Trailer */
 
 /* Fine Stili Generici */
