@@ -9,12 +9,22 @@
 
 /* INIZIO STILI PRINCIPALI */
 body {
-
+  color: #32495b;
+}
+header nav {
+  float:left;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  font-size: 10px;
+  font-weight: 600;
 }
 
 .clearfix::after {
@@ -35,21 +45,15 @@ a {
 
 /* Inizio Stili Search Nav */
 header nav.search  {
-  float: left;
   height: 55px;
   line-height: 55px;
-  font-size: 10px;
-  font-weight: 600;
   width: 100%;
   background: #f4f9fd;
   border-bottom: 2px solid #bec6cb;
 }
 
 header nav.search li {
-  list-style: none;
-  display: inline;
   padding-left: 2%;
-  color: #32495b;
 }
 
 header nav.search .contact {
@@ -79,12 +83,39 @@ header nav.search .signin .login {
 }
 
 /* Fine Stili Search Nav */
+
+/* Inizio Stili Options */
 header nav.menu {
-  height: 110px;
+  height: 55px;
+  line-height: 63px;
   width: 100%;
   background: white;
 }
 
+header .menu .logo {
+  float: left;
+  margin-left: 10%;
+  width: 40%;
+  height: 55px;
+}
+
+header .menu .logo img {
+  margin-left: 10%;
+  line-height: 55px;
+  width: 75px;
+}
+
+header .menu .options {
+  text-align: right;
+  margin-right: 10%;
+  line-height: 55px;
+}
+
+header .menu .options li {
+  margin-left: 2%;
+}
+
+/* Fine Stili Options */
 header .pink {
   height: 410px;
   width: 100%;
