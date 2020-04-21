@@ -1,0 +1,102 @@
+/* INIZIO RESET */
+*{
+  font-family: Montserrat;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* INIZIO STILI PRINCIPALI */
+body {
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.button {
+  padding: 0.5em;
+  border-radius: 3px;
+  color: white;
+  background: #fe775a;
+}
+/* FINE STILI PRINCIPALI */
+
+/* Inizio Stili Generici */
+
+/* Inizio Stili Search Nav */
+header nav.search  {
+  float: left;
+  height: 55px;
+  line-height: 55px;
+  font-size: 10px;
+  font-weight: 600;
+  width: 100%;
+  background: #f4f9fd;
+  border-bottom: 2px solid #bec6cb;
+}
+
+header nav.search li {
+  list-style: none;
+  display: inline;
+  padding-left: 2%;
+  color: #32495b;
+}
+
+header nav.search .contact {
+  float:left;
+  text-align: left;
+  width: 40%;
+  margin-left: 10%;
+
+}
+
+header nav.search .signin {
+  float:left;
+  width: 40%;
+  margin-right: 10%;
+  text-align: right;
+
+}
+
+header nav.search .signin .fa-search{
+  color: #01a5bd;
+}
+
+header nav.search .signin .login {
+  background: #fafcfe;
+  color:#fd8a72;
+  border: 1px solid #fd8a72;
+}
+
+/* Fine Stili Search Nav */
+header nav.menu {
+  height: 110px;
+  width: 100%;
+  background: white;
+}
+
+header .pink {
+  height: 410px;
+  width: 100%;
+  background: #fef4ef;
+}
+
+header .green {
+  height: 55px;
+  width: 100%;
+  background: #afebe4;
+  border-top: 2px solid black;
+  border-bottom: 2px solid #33475b;
+}
+
+/* Fine Stili Generici */
