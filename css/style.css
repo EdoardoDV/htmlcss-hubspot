@@ -67,6 +67,22 @@ li {
 .fa-check-circle{
   color:#fe775a;
 }
+
+.premise img {
+  width: 20%;
+}
+
+.premise  {
+  text-align: center;
+  height: 22%;
+  padding: 5%;
+}
+
+.premise p {
+  margin-top: 3%;
+  padding: 0 7%
+}
+
 /* FINE STILI PRINCIPALI */
 
 /* Inizio Stili Generici */
@@ -190,29 +206,7 @@ header .green {
 
 main #services {
   background: #f4f9fd;
-  height: 1075px;
   padding: 0 15%;
-}
-
-main #services::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-main #services .horizontal .premise img {
-  width: 20%;
-}
-
-main #services .horizontal .premise  {
-  text-align: center;
-  height: 22%;
-  padding: 5%;
-}
-
-main #services .horizontal .premise p {
-  margin-top: 3%;
-  padding: 0 7%
 }
 
 main #services .service {
@@ -224,7 +218,6 @@ main #services .service {
 main #services .horizontal .service {
   padding: 5%;
   margin-bottom: 5%;
-  height:
 }
 
 main #services .horizontal .service .illustration {
@@ -235,6 +228,7 @@ main #services .horizontal .service .illustration {
 
 main #services .horizontal .service img {
   height: 100px;
+  margin-bottom: 15%;
 }
 main #services .horizontal .service .button {
   padding: 15px;
@@ -267,8 +261,10 @@ main #services .horizontal .service .description li span {
 main #services .vertical .service {
   float: left;
   width: 30%;
+  height: 600px;
   text-align: center;
   padding: 2%;
+  margin-bottom: 5%
 }
 
 main #services .vertical .service img {
@@ -307,6 +303,43 @@ main #services .vertical .three {
 
 /* Fine Stili Services */
 
+/* Inizio Stili Awards */
+
+main #awards {
+  color: white;
+  background: #00adb4;
+  padding: 0 15%;
+}
+
+main #awards .mile {
+  float:left;
+  width: 25%;
+  height: 200px;
+  text-align: center;
+  border: 1px solid white;
+  border-top: 0px;
+}
+main #awards .mile img{
+  margin: 10% 0;
+}
+
+main #awards .mile h2 {
+  margin: 2% 0;
+}
+
+main #awards .miles .one, main #awards .miles .five {
+  border-left: 0;
+}
+
+main #awards .miles .four, main #awards .miles .eight {
+  border-right: 0;
+}
+
+main #awards .miles .five, main #awards .miles .six, main #awards .miles .seven, main #awards .miles .eight {
+  margin-bottom: 8%;
+  border-bottom: 0;
+}
+/* Fine Stili Awards */
 
 /* Fine Stili Main */
 
