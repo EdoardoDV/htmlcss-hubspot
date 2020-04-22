@@ -412,9 +412,11 @@ footer {
   background: #32495b;
   color: white;
   padding: 2% 15%;
+}
 
 footer p {
   font-weight: 600;
+  margin-bottom: 25px;
 }
 
 footer .list {
@@ -428,6 +430,18 @@ footer .list li {
   font-weight: 400;
 }
 
+footer .list li:hover {
+  color: #fe775a;
+}
+
+footer .social ul:hover {
+  color: white;
+}
+
+footer .social li:hover {
+  color: #fe775a;
+}
+
 footer .social li {
   display: inline;
   text-align: center;
@@ -437,6 +451,40 @@ footer .social li {
 footer .button {
   background: #dadee0;
   color: #32495b;
+}
+footer .lang {
+  float: left;
+  text-align: center;
+  margin: 0 30%;
+}
+footer .lang li{
+  padding:0 5px;
+}
+
+footer .lang li:hover {
+  color: #fe775a;
+}
+
+footer hr {
+  float: left;
+  border:1px solid #dadee0;
+  padding: 0 50%;
+  margin: 2% 0;
+}
+
+footer .foot img {
+  float: left;
+}
+
+footer .policy {
+  float:right;
+  text-align: right;
+  width: 500px;
+}
+
+footer .policy li {
+  margin-top: 15px;
+  margin-left: 2%;
 }
 /* Fine Stili Footer */
 
